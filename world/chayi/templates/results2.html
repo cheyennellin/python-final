@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<a href="http://nfunm059.gitee.io/index/"><button> kill</button></a>
+<form method="POST" action="/hurun">
+    <select name="the_region_selected">
+        {% for item in the_select_region %}
+            <option value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+    </select>
+<p><input value='Do it!' type='SUBMIT'></p>
+<h1>{{ the_title|safe }}</h1>
+</form>
+{{ the_plot_all|safe }}
+{{ the_xixi|safe }}
+{{ the_res|safe }}
+
+
+</body>
+</html>
