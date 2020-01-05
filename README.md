@@ -4,8 +4,8 @@
 [pythonanywhere URL](http://doublegood.pythonanywhere.com/)
 
 * 打开方式
- * 下拉框点击跳转
- * 点击导航栏
+   * 下拉框点击跳转
+   * 点击导航栏
  
 url总共两个
 * [主页](http://doublegood.pythonanywhere.com/)
