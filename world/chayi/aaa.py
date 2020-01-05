@@ -27,6 +27,11 @@ regions_available_loaded = list(df.region.dropna().unique())
 cf.set_config_file(offline=True, theme="ggplot")
 py.offline.init_notebook_mode()
 
+@app.route('/entry')
+def entry_page() ->'html':
+    """Display this webapp's HTML form"""
+    return render_template('entry.html',
+                           the_title='世界性别差异！')
 
 @app.route('/',methods=['GET'])
 def hu_run_2019():
