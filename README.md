@@ -16,18 +16,18 @@ url总共两个
         - hf(1).css
     -templates
         - 成果.html
-		- results.html
+		- results2.html
 		- base.html
 		- entry.html
     - aaa.py
-	-js
-	   -echarts.min.js
-	-gender.csv
+    -js
+      -echarts.min.js
+    -gender.csv
 
 #### html档描述
 - base.html:基础页面，引用了bootstrap模板，导航栏可选择kill 差异等对应页面
 - emtru.html:承接页码，用来连接result.html
-- results.html:主页面，用来存放数据页面
+- results2.html:主页面，用来存放数据页面
 - kill:用来展示女性受到暴力程度
 - 成果.html:17级所制作图表
 
