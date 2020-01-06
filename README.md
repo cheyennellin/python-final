@@ -83,24 +83,7 @@ the_xixi= shuo,
 the_res = data_str, 
 the_select_region=regions_available, 
 ) 
-  @app.route('/kill',methods=['GET','POST']) 
-def kill() -> 'html': 
-data_str = df1.to_html() 
-trace0 = go.Bar( 
-y=df1['2010'], 
-x=df1['indictor'], 
-marker=dict(color='#483D8B', # 设置条形图的颜色 
-line=dict(color='rgb(256, 256, 256)', width=1.0, )), # 设置条形图边框 
-name='总次数', # 设置这个图的名字，和图例对应#如果水平条形图需设置，竖直条形图不用设置 
-opacity=0.9) 
-layout = go.Layout( 
-plot_bgcolor='#E6E6FA', # 图的背景颜色 
-paper_bgcolor='#F8F8FF', # 图像的背景颜色 
-autosize=False, width=1050, height=600, # 设置图像的大小 
-# 设置图离图像四周的边距 
-margin=go.Margin(l=250, r=60, b=50, t=60, pad=3), # pad参数是刻度与标签的距离 
-# 设置y轴的刻度和标签 
-yaxis=di
+ 
 ```
 
 ##### Web App动作描述：
